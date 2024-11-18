@@ -6,7 +6,8 @@ import importTrade from "../pages/ImportTrade";
 import UploadCsvFile from "../pages/UploadCsvFile";
 import TradesPage from "../pages/TradesPage";
 import Jornal1 from "../pages/jornals/JornalPage"
-import Jornal2 from "../pages/jornals/CandlestickChart"
+import Jornal2 from "../pages/jornals/candlestick/Real"
+import JornalPage2 from "../pages/jornals/JornalPage2";
 
 
 
@@ -45,6 +46,10 @@ const routes: RouteObject[] = [
             {
                 path: "/jornal2",
                 Component: Jornal2,
+            },
+            {
+                path: "/jornalpage2",
+                Component: JornalPage2,
             }
 
           

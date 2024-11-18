@@ -61,7 +61,7 @@ const TopGraph = () => {
               outerRadius="100%"
               dataKey="value"
             >
-              {data.map((entry, index) => (
+              {data.map((_, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index]} />
               ))}
             </Pie>
