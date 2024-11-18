@@ -81,7 +81,7 @@ const Calender = () => {
         ))}
         
         {/* Weekly Summaries */}
-        {['Week 1', 'Week 2', 'Week 3', 'Week 4'].map((week, index) => (
+        {['Week 1', 'Week 2', 'Week 3', 'Week 4'].map(week => (
           <div key={week} className="text-center font-semibold text-gray-600 col-span-1">
             {week}
           </div>

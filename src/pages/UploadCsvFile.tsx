@@ -1,12 +1,7 @@
-import { useState } from 'react';
-import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
 const UploadCsvFile = () => {
-  const [openDate, setOpenDate] = useState<Date | null>(null);
-  const [closeDate, setCloseDate] = useState<Date | null>(null);
-  const [openTime, setOpenTime] = useState('');
-  const [closeTime, setCloseTime] = useState('');
+
 
   return (
     <div className="flex p-14 pt-4 ">

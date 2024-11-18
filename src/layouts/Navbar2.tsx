@@ -42,7 +42,6 @@ function Navbar2() {
           <Menu />
           <div className="nav-2 flex flex-col items-center border-b-2 max-w-8xl mx-auto">
             <div className="w-full flex flex-col items-center space-y-2 px-4 py-4">
-              <a href="#" className="text-gray-600 hover:text-gray-900 tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm w-full text-center">Dashboard</a>
               <a href="#" className="text-gray-600 hover:text-gray-900 tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm w-full text-center">Journal</a>
               <a href="#" className="text-gray-600 hover:text-gray-900 tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm w-full text-center">Trades</a>
               <a href="#" className="text-gray-600 hover:text-gray-900 tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm w-full text-center">Notes</a>
@@ -67,19 +66,69 @@ function Navbar2() {
       <hr style={{ border: 'none', borderTop: '2px solid #ddd', margin: '9px 0' }} />
       
       {/* Desktop navigation links */}
-      <div className="nav-2 w-full max-w-8xl mx-auto flex justify-between hidden md:flex">
+      <div className="nav-2 w-full max-w-8xl mx-auto flex justify-between md:flex">
         <div className="w-full flex justify-between pr-14 pl-14">
           <div className="major-link flex space-x-5">
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Dashboard</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Journal</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Trades</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Notes</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Strategy Developer</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Analytics</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Insights</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Backtesting</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Trade Replay</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 whitespace-nowrap tracking-wide font-semibold hover:bg-gray-100 hover:border-b-2 p-2 rounded text-sm">Resources</a>
+          <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Dashboard</p>
+  </a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Journal</p>
+  </a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Trades</p>
+  </a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Notes</p>
+  </a>
+  <a 
+  href="#" 
+  className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+>
+  Trade Replay
+</a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Analytics</p>
+  </a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Insights</p>
+  </a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Backtesting</p>
+  </a>
+  <a 
+  href="#" 
+  className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+>
+  Trade Replay
+</a>
+  <a 
+    href="#" 
+    className="text-gray-600 hover:text-gray-900 tracking-wide font-medium hover:bg-gray-100 hover:border-b-2 p-1 rounded text-xs w-full flex items-center justify-center"
+  >
+    <p>Resources</p>
+  </a>
           </div>
           <div>
             <button className="flex items-center text-white font-inter text-base px-6 py-3 rounded-xl hover:bg-gradient-to-r hover:from-[#FF9966] hover:to-[#C048A1] transition duration-300" style={{ background: 'linear-gradient(90deg, #FF9966 0%, #C048A1 100%)' }}>
