@@ -52,7 +52,10 @@ const RecentTrade = () => {
     <div className="flex-col justify-between items-center w-full mt-20 pl-14 pr-14 rounded-md shadow-sm">
       <div className="flex-col justify-between items-center w-full p-7 border border-gray-300 rounded-md shadow-sm">
         <div className="flex justify-between">
+          <div className='flex justify-between w-36'>
           <h1>Recent Trades</h1>
+<a href="" className='bg-black border-r' >24</a>
+          </div>
           <button className="p-2 bg-gray-200 w-20 rounded-md hover:bg-gray-300">
             <FontAwesomeIcon icon={faFilter} className="mr-2" />
             Filter

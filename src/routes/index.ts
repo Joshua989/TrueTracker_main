@@ -9,6 +9,9 @@ import Jornal1 from "../pages/jornals/JornalPage"
 import Jornal2 from "../pages/jornals/candlestick/Real"
 import JornalPage2 from "../pages/jornals/JornalPage2";
 import navbar from "../layouts/Navbar2"
+import Signup from "../pages/AuthPages/SIgnUpForm";
+import LoginPage from "../pages/AuthPages/LoginPage";
+import CheckInbox from "../pages/AuthPages/CheckInbox";
 
 
 
@@ -53,10 +56,28 @@ const routes: RouteObject[] = [
                 Component: JornalPage2,
             },
             {
-                path:"/navbar",
-                Component: navbar
+                path: "/navbar",
+                Component: navbar,
+            },
+        ],
+        
+    },
+    {
+        path : '/',
+        children :[
+            {
+                path: "/Signup",
+                Component : Signup
+            },
+            {
+                path: "/Login",
+                Component : LoginPage
+            },
+            {
+                path: "/CheckInbox",
+                Component : CheckInbox
             }
-           
+
           
         ]
     }
