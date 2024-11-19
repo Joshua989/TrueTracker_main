@@ -8,7 +8,7 @@ import TradesPage from "../pages/TradesPage";
 import Jornal1 from "../pages/jornals/JornalPage"
 import Jornal2 from "../pages/jornals/candlestick/Real"
 import JornalPage2 from "../pages/jornals/JornalPage2";
-import Navbar2 from "../layouts/Navbar2";
+import navbar from "../layouts/Navbar2"
 
 
 
@@ -53,10 +53,10 @@ const routes: RouteObject[] = [
                 Component: JornalPage2,
             },
             {
-                path: "/navbar2",
-                Component: Navbar2,
+                path:"/navbar",
+                Component: navbar
             }
-
+           
           
         ]
     }
